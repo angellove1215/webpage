@@ -1,0 +1,330 @@
+body {
+    background-color: #5bd3db;
+    font-family: Arial, sans-serif;
+}
+img{
+height: 300px;
+border-radius: 50%;
+border: 12px dotted #5bd3db;
+}   
+h1 {
+    color: #030000;
+    text-align: center;
+} 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}  
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #030000;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ff5733;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    color: #030000;
+}
+a {
+    color: #030000;
+}
+a:hover {
+    color: #ff5733;
+}
+button {
+    background-color: #030000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff5733;
+}
+button:active {
+    background-color: #cc4400;
+}
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+button:disabled:hover {
+    background-color: #cccccc;
+}
+button:disabled:active {
+    background-color: #cccccc;
+}
+form {
+    margin: 20px 0;
+}
+form input, form select, form textarea {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+form label {
+    font-weight: bold;
+}
+form input[type="submit"] {
+    background-color: #030000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #ff5733;
+}
+form input[type="submit"]:active {
+    background-color: #cc4400;
+}
+form input[type="submit"]:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+form input[type="submit"]:disabled:hover {
+    background-color: #cccccc;
+}
+form input[type="submit"]:disabled:active {
+    background-color: #cccccc;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #030000;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #ffebd6;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.container-footer p {
+    color: #030000;
+}
+.container-footer a {
+    color: #030000;
+}
+.container-footer a:hover {
+    color: #ff5733;
+}
+.container button {
+    background-color: #030000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #ff5733;
+}
+.container button:active {
+    background-color: #cc4400;
+}
+.container button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.container button:disabled:hover {
+    background-color: #cccccc;
+}
+.container button:disabled:active {
+    background-color: #cccccc;
+}
+.container form {
+    margin: 20px 0;
+}
+.container form input, .container form select, .container form textarea {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container form label {
+    font-weight: bold;
+}
+.container form input[type="submit"] {
+    background-color: #030000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container form input[type="submit"]:hover {
+    background-color: #ff5733;
+}
+.container form input[type="submit"]:active {
+    background-color: #cc4400;
+}
+.container form input[type="submit"]:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.container form input[type="submit"]:disabled:hover {
+    background-color: #cccccc;
+}
+.container form input[type="submit"]:disabled:active {
+    background-color: #cccccc;
+}
+h2 {
+    color: #030000;
+    margin-top: 20px;
+}
+h3 {
+    color: #030000;
+    margin-top: 15px;
+}
+p {
+    color: #030000;
+    line-height: 1.6;
+}
+ul {
+    color: #030000;
+    line-height: 1.6;
+}
+li {
+    margin-bottom: 10px;
+}
+a.button-link {
+    display: inline-block;
+    background-color: #030000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.button-link:hover {
+    background-color: #ff5733;
+}
+a.button-link:active {
+    background-color: #cc4400;
+}
+a.button-link:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+a.button-link:disabled:hover {
+    background-color: #cccccc;
+}
+a.button-link:disabled:active {
+    background-color: #cccccc;
+}
+.section {
+    margin: 20px 0;
+}
+.section-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.section-content {
+    color: #030000;
+    line-height: 1.6;
+}
+.section-content a {
+    color: #030000;
+}
+.section-content a:hover {
+    color: #ff5733;
+}
+.section-content button {
+    background-color: #030000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.section-content button:hover {
+    background-color: #ff5733;
+}
+.section-content button:active {
+    background-color: #cc4400;
+}
+.section-content button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.section-content button:disabled:hover {
+    background-color: #cccccc;
+}
+.section-content button:disabled:active {
+    background-color: #cccccc;
+}
+.section-content form {
+    margin: 20px 0;
+}
+.section-content form input, .section-content form select, .section-content form textarea {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.section-content form label {
+    font-weight: bold;
+}
+.section-content form input[type="submit"] {
+    background-color: #030000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.section-content form input[type="submit"]:hover {
+    background-color: #ff5733;
+}
+.section-content form input[type="submit"]:active {
+    background-color: #cc4400;
+}
+.section-content form input[type="submit"]:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.section-content form input[type="submit"]:disabled:hover {
+    background-color: #cccccc;
+}
+.section-content form input[type="submit"]:disabled:active {
+    background-color: #cccccc;
+}
